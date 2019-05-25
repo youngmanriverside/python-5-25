@@ -6,3 +6,6 @@ dictionary ：索引標籤  dic.get('a')-用get取值
 set 集合中列出不重複值
 162 qa機器人
 IN 29 text to speech$ speech to text   互動式機器人
+words = speech.split() 分割
+Hw.嘗試load-mp3 讀進去，融會貫通函式使用
+ 
