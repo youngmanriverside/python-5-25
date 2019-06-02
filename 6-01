@@ -12,3 +12,5 @@ for p in range(1,4):
         link = news.get('href')
         newsary.append(pageDetail(link))
     print(p)
+
+#591租屋 擋爬蟲 token
