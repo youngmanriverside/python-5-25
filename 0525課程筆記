@@ -1,7 +1,7 @@
 # markdown-標題
 help 熱鍵
 raw-右鍵- 另存連結 下載課程練習
-()呼叫函數， [] Llist， {} dictionary  
+各種括號()呼叫函數 [] Llist  {} dictionary  
 字典
 dictionary ：索引標籤  dic.get('a')-用get取值
 {'a': 100, 'b': 'yes', 'c': 0.98, 0: 50}
