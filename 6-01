@@ -4,7 +4,7 @@ res.text
 註：可以寫 迴圈  if res.json fail elif res.text 
 -------------------------------------------------------------
 newsary = []
-newsurl =  'https://tw.appledaily.com/new/realtime/{}'  {} format ，   最大公約數('li.rtddt a')
+newsurl =  'https://tw.appledaily.com/new/realtime/{}'  註：{} format ，   最大公約數('li.rtddt a')
 for p in range(1,4):
     res  = requests.get(newsurl.format(p))
     soup = BeautifulSoup(res.text, 'lxml')
