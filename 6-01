@@ -1,1 +1,4 @@
 # python-6-01
+res = requests.get('https://www.google.com.tw/search?q=nba&oq=nba&aqs=chrome..69i57j0l2j35i39j0l2.3280j1j7&sourceid=chrome&ie=UTF-8')
+res.text 
+註：可以寫 迴圈  if res.json fail elif res.text 
