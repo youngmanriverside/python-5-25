@@ -1,3 +1,5 @@
 敘述性統計
 股價.均線.月線.季線
 df[['Close','mvg30', 'mvg120']].plot(kind='line', legend=True, figsize=[10,5])
+擷取字串內字元
+df['city'] = df['address'].str.extract('(.*?[市縣]).*')
