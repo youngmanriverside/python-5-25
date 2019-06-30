@@ -3,3 +3,7 @@
 df[['Close','mvg30', 'mvg120']].plot(kind='line', legend=True, figsize=[10,5])
 擷取字串內字元
 df['city'] = df['address'].str.extract('(.*?[市縣]).*')
+套件
+ sklearn.
+ 隨機森林
+ from sklearn.ensemble import RandomForestRegressor
